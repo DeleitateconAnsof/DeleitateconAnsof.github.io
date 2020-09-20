@@ -59,32 +59,49 @@ header nav a:hover{
    }
 
    .header2 .logo{
-    line-height:100px;
+    line-height:90px;
     font-size: 30px;
    }
 
    .header2 nav{
-    line-height:100px
+    line-height:150px
+   }
+
+   @media screen and (max-width: 950px) {
+    header.logo,
+    header nav{
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+
+    }
+    .header2 {
+      height: auto;
+    }
+    .head2 .logo,
+    .header nav {
+      line-height:50px;
+    }
    }
   
 </style>
 
 
 <body> 
-    <header class="header2">
+    <header class="header">
       <div class="wrapper">
       <div class="logo">Deléitate con Ansof</div>
 
       <nav> 
-          <a href="#"> Información personal</a>
-          <a href="#">Recetas saludables</a>
+          <a href="info personal"> Información personal</a>
+          <a href="recetas">Recetas saludables</a>
           <a href="#">Snaks y postres</a>
           <a href="#">Referencias</a>
       </nav>
     </div>
     </header>
     <section class="info wrapper">
-      <h2>Información personal</h2>
+      <h2 Información personal class="info personal"></h2>
       <article>
       <img src="https://u.ph.edim.co/1b40/134666726_1_140.jpg">
       <ul class="list">
@@ -100,7 +117,7 @@ header nav a:hover{
     </section>
 
     <section class="contenido wrapper ">
-      <h1>Recetas practicas y faciles</h1>
+      <h1 Recetas practicas y faciles class="recetas"></h1>
       <h2>Salmón a la naranja</h2>
       <img src="https://s1.eestatic.com/2015/02/23/cocinillas/Cocinillas_13258747_115937598_1706x960.jpg" alt="salmón a la naranja" width="30% ">
       <p>El salmón a la naranja es una receta de las más sencillas que podemos hacer para cambiar la forma habitual de comer el salmón. La salsa de naranja le da un toque dulce y cítrico a la vez al salmón, por lo que resulta delicioso, además de quedar muy jugoso. La salsa lleva también unas almendras, que  aportan una textura diferente a la receta, y un sofrito de cebolla que combina muy bien con el salmón.
@@ -132,13 +149,8 @@ header nav a:hover{
     <td>Sal y pimienta al gusto </td> 
         </tr>
      </table>
-
-
-
-
     </section>
+
 </body>
 </html>
-      
-
-    
+  
