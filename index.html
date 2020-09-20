@@ -7,26 +7,102 @@
 <style type="text/css">
   
   table, th, tr, td {  border: 1px solid black }
+  .list{
+    text-align: left;
+    display:inline-block;
+}
 
+*{margin: 0; padding:0;}
+body{ background: #E7E2E8; }
+header{
+  width: 100%;
+ overflow:hidden;
+ background:#C359DA;
+ margin-bottom: 20px;
+}
+.wrapper {
+  width:90%; 
+  max-width:1000px; 
+  margin: auto;
+  overflow: hidden;
+}
+header .logo{
+    color:#F9F6FA;
+    font-size: 40px;
+    line-height:200px;
+    float: left;
+}
+header nav{
+float: right;
+line-height:200px;
+}
+header nav a{
+  display:inline-block;
+  color:#F9F6FA;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+header nav a:hover{
+  background:#AA02E8;
+  border-radius:50px;}
+
+  .header2{ 
+  position: fixed;
+  height:100px;
+   }
+
+   .header2 .logo{
+    line-height:100px;
+    font-size: 30px;
+   }
+
+   .header2 nav{
+    line-height:100px
+   }
   
 </style>
 
 
 <body> 
-    <header>
-      <div class="logo">
-        <img src="logo.png" alt="logo" width="1100"> 
-      </div>
+    <header class="header2">
+      <div class="wrapper">
+      <div class="logo">Deléitate con Ansof</div>
+
       <nav> 
           <a href="#"> Información personal</a>
           <a href="#">Recetas saludables</a>
           <a href="#">Snaks y postres</a>
+          <a href="#">Referencias</a>
       </nav>
+    </div>
     </header>
+    <section class="info wrapper">
+      <h2>Información personal</h2>
+      <article>
+      <img src="https://u.ph.edim.co/1b40/134666726_1_140.jpg">
+      <ul class="list">
+        <li>Estudiante: 14 Laura Sofía Candelo Zapata</li>
+        <li>Grado:10-A</li>
+        <li>Proyecto final tecnología</li>
+        <li>Deléitate con Ansof</li>
+      </ul>
 
-    <section class="contenido">
+      
+      </article>
+      
+    </section>
+
+    <section class="contenido wrapper ">
       <h1>Recetas practicas y faciles</h1>
       <h2>Salmón a la naranja</h2>
+      <img src="https://s1.eestatic.com/2015/02/23/cocinillas/Cocinillas_13258747_115937598_1706x960.jpg" alt="salmón a la naranja" width="30% ">
       <p>El salmón a la naranja es una receta de las más sencillas que podemos hacer para cambiar la forma habitual de comer el salmón. La salsa de naranja le da un toque dulce y cítrico a la vez al salmón, por lo que resulta delicioso, además de quedar muy jugoso. La salsa lleva también unas almendras, que  aportan una textura diferente a la receta, y un sofrito de cebolla que combina muy bien con el salmón.
       </p>
       
@@ -63,7 +139,6 @@
     </section>
 </body>
 </html>
-     
       
 
     
