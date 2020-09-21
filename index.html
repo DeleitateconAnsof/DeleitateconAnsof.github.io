@@ -9,7 +9,9 @@
   table, th, tr, td {  border: 1px solid black }
   .list{
     text-align: left;
+    line-height:30px;
     display:inline-block;
+    list-style: none;
 }
 
 *{margin: 0; padding:0;}
@@ -34,7 +36,8 @@ header .logo{
 }
 header nav{
 float: right;
-line-height:200px;
+line-height:50px;
+
 }
 header nav a{
   display:inline-block;
@@ -83,6 +86,19 @@ header nav a:hover{
       line-height:50px;
     }
    }
+
+   h2{
+     padding: 0 30px 30px 30px;
+   }
+   img{ 
+    display: block;
+    margin: auto;
+ } 
+ table{
+  width: 30%
+ }
+
+   
   
 </style>
 
@@ -90,42 +106,50 @@ header nav a:hover{
 <body> 
     <header class="header">
       <div class="wrapper">
-      <div class="logo">Deléitate con Ansof</div>
+      <div class="logo">Deléitate con ANSOF</div>
+      <br>
+      <br>
+      <br>
+      <div class="logo">"Recetas practicas y variadas"</div>
 
       <nav> 
-          <a href="info personal"> Información personal</a>
-          <a href="recetas">Recetas saludables</a>
-          <a href="#">Snaks y postres</a>
-          <a href="#">Referencias</a>
+          <a href="#info personal"> Información personal</a>
+          <a href="#recetas">Recetas saludables</a>
+          <a href="#snacks">Snaks y postres</a>
+          <a href="#referencias">Referencias</a>
       </nav>
     </div>
     </header>
-    <section class="info wrapper">
-      <h2 Información personal class="info personal"></h2>
+    <section class="contenido wrapper">
+      <h1 Información personal id="info personal"></h1>
+      <h1>INFORMACIÓN PERSONAL</h1>
+      <br>
       <article>
-      <img src="https://u.ph.edim.co/1b40/134666726_1_140.jpg">
+      <img src="https://u.ph.edim.co/1b40/134666726_1_140.jpg" alt="Imagen de quien elaboro la pagina">
       <ul class="list">
         <li>Estudiante: 14 Laura Sofía Candelo Zapata</li>
         <li>Grado:10-A</li>
         <li>Proyecto final tecnología</li>
-        <li>Deléitate con Ansof</li>
+        <li>Deléitate con ANSOF</li>
       </ul>
-
-      
       </article>
-      
     </section>
-
+    <br>
+    
     <section class="contenido wrapper ">
-      <h1 Recetas practicas y faciles class="recetas"></h1>
+       <h1 Recetas saludables id="recetas"></h1>
+       <h1>RECETAS SALUDABLES</h1>
+      <article>
+        <br>
       <h2>Salmón a la naranja</h2>
-      <img src="https://s1.eestatic.com/2015/02/23/cocinillas/Cocinillas_13258747_115937598_1706x960.jpg" alt="salmón a la naranja" width="30% ">
+      <img src="https://s1.eestatic.com/2015/02/23/cocinillas/Cocinillas_13258747_115937598_1706x960.jpg" alt="salmón a la naranja" width="40% ">
+      <br>
       <p>El salmón a la naranja es una receta de las más sencillas que podemos hacer para cambiar la forma habitual de comer el salmón. La salsa de naranja le da un toque dulce y cítrico a la vez al salmón, por lo que resulta delicioso, además de quedar muy jugoso. La salsa lleva también unas almendras, que  aportan una textura diferente a la receta, y un sofrito de cebolla que combina muy bien con el salmón.
       </p>
-      
-      <table style="width:30%">
+      <br>
+      <table>
         <tr>
-          <th>Ingredientes </th>
+          <th>Ingredientes</th>
         </tr>
         <tr>
     <td> 1 cola de salmón</td> 
@@ -134,7 +158,7 @@ header nav a:hover{
     <td>40 gr de mantequilla sin sal</td>  
   </tr>
   <tr>
-    <td>1 cebolla</td> >
+    <td>1 cebolla</td> 
   </tr>
   <tr>
     <td>1 diente de ajo</td> 
@@ -146,11 +170,346 @@ header nav a:hover{
     <td>150 gr de almendras</td> 
   </tr>
   <tr>
-    <td>Sal y pimienta al gusto </td> 
+    <td>Sal, pimienta y eneldo </td> 
         </tr>
      </table>
-    </section>
+    <br>
+
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. En una cazuela derretimos la mantequilla y sofreímos el ajo y la cebolla picados, con un poco de sal.</li>
+      <li>2. Cuando la verdura esté pochada, añadimos las almendras, que habremos picado previamente, para que también se doren.</li>
+      <li>3. Añadimos una cucharadita de harina y movemos bien para que se tueste.</li>
+      <li>4. A continuación, añadimos el zumo natural de las dos naranjas y dejamos que rompa a hervir. Bajamos el fuego y dejamos que espese un poco. Probamos y salpimentamos.</li>
+      <li>5. Cuando la salsa esté hecha, la pasamos por la batidora, pero a media potencia, porque no queremos convertirla en “puré”, sino lograr que todos los ingredientes queden bien ligados, pero que sigamos encontrando las almendras en trocitos muy pequeños.</li>
+      <li>6. En otra sartén cocinamos a fuego fuerte el salmón dos minutos por cada lado, para sellarlo.</li>
+      <li>7. Pasamos el salmón a la cazuela, sobre la salsa de naranja, y espolvoreamos con el eneldo. Dejamos que se cocine unos 4 minutos con el recipiente tapado para que se termine de hacer y se empape bien de todos los sabores. El tiempo variará en función del grosor del salmón.</li>
+      <li>8. Servimos el salmón con su salsa y decoramos con un poco de ralladura de naranja.</li>
+    </ol>
+    <br>
+     <h2>Ensalada de atún y aguacate</h2>
+      <img src="https://okdiario.com/img/recetas/2017/01/10/ensalada-de-atun-y-aguacate.jpg " alt="salmón a la naranja" width="40% " alt="ensalada-de-atun-y-aguacate">
+      <br>
+      <p>Ensalada de atún y aguacate, deliciosa y sencilla ensalada rica en proteínas.</p>
+      <br>
+       <table>
+        <tr>
+          <th>Ingredientes</th>
+        </tr>
+        <tr>
+    <td> 1 cebolla roja cortada en trocitos</td> 
+  </tr>
+  <tr>
+    <td>4 pepinos en vinagre en trocitos</td>  
+  </tr>
+  <tr>
+    <td>2 aguacates medianos maduros cortados por la mitad</td> 
+  </tr>
+  <tr>
+    <td>240 gr de atún de lata al natural</td> 
+  </tr>
+  <tr>
+    <td>4 tazas de lechuga</td> 
+  </tr>
+  <tr>
+    <td>Tomates cherry (30 a 40 unidades)</td> 
+  </tr>
+  <tr>
+    <td>Sal y pimienta </td> 
+        </tr>
+     </table>
+      <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+    <li>1. En una ensaladera colocamos la cebolla, los pepinos y los pepinillos cortados en trozos. Añadir a lechuga cortada y los tomes en rodajas (reservar 5 tomatitos).</li>
+     <li>2. Preparar el aliño combinando todos los ingredientes en un frasco pequeño de vidrio. Agitamos bien para mezclar. Verter un poco del aliño sobre las verduras y remover. </li>
+    <li>3. Colocar encima de las verduras el atún en trocitos, y añadir también el aguacate cortado. Verter el resto del aliño sobre la ensalada, añadir sal y pimienta  y adornar con los tomatitos cherry que habíamos reservado.</li>
+    </ol>
+    <br>
+    <h2>Arroz con verduras al pimentón</h2>
+      <img src="https://s4.eestatic.com/2015/03/29/cocinillas/Cocinillas_21757907_115960751_1706x960.jpg" width="40% " alt="arroz con verduras">
+      <br>
+      <p>Un delicioso arroz con verduras al pimentón, este iene un sabor muy característico del pimiento, Como bien sabemos el pimentón resalta por su sabor picante ligero y su aroma, por ello aquí es el principal ingrediente, es el estrella.</p>
+      <br>
+       <table>
+        <tr>
+          <th>Ingredientes</th>
+        </tr>
+        <tr>
+    <td> 1 cebolla</td> 
+  </tr>
+  <tr>
+    <td>1 pimiento rojo</td>  
+  </tr>
+  <tr>
+    <td>1 pimiento verde</td> 
+  </tr>
+  <tr>
+    <td>1 zanahoria</td> 
+  </tr>
+  <tr>
+    <td>1/2 calabacín</td> 
+  </tr>
+  <tr>
+    <td>3 cucharadas de aceite de oliva</td>
+  </tr>
+  <tr>
+    <td>500 ml de vino blanco</td> 
+  </tr>  
+  <tr>
+    <td> 1 cucharada sopera de pimentón</td> 
+  </tr>
+  <tr>
+    <td>1 vaso de arroz</td>  
+  </tr>
+  <tr>
+    <td>2-3 vasos de caldo de verduras</td> 
+  </tr>
+  <tr>
+    <td>Sal</td> 
+      </tr>
+    </table>
+    <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+    <li>1. Limpiamos y troceamos las hortalizas en cubitos de medio centímetro de lado.</li>
+    <li>2. Ponemos a calentar el aceite en una sartén o en una cacerola baja antiadherente a fuego medio-alto (9/12). Cuando notemos que desprende calor, pero sin llegar a humear, añadimos las hortalizas troceadas y las salamos ligeramente, las salteamos durante un par de minutos, bajamos el fuego (5/12) y las dejamos que se pochen hasta que veamos que están tiernas.</li>
+    <li>3. Subimos el fuego al máximo, añadimos el vino blanco y lo dejamos a fuego fuerte hasta que se reduzca (sabremos que se ha reducido lo suficiente cuando deje de oler a alcohol).</li>
+    <li>4. Bajamos el fuego (4/12), añadimos el pimentón y damos unas vueltas para que las verduras se impregnen bien.</li>
+    <li>5. Agregamos el caldo y subimos el fuego hasta que rompa a hervir. Antes de que hierva, probamos el caldo para ver si es necesario rectificar de sal en el caso de que el caldo no tuviese suficiente.</li>
+    <li>6. Cuando el caldo esté hirviendo, agregamos el arroz bien distribuido y bajamos el fuego (3/12). Debe cocinarse a fuego bajo pero que permita mantener un hervor muy ligero, el clásico “chup chup“.</li>
+    <li>7. En 18-20 minutos, nuestro arroz estará listo. Apagamos el fuego, dejamos reposar de 3 a 5 minutos y ya lo podremos servir.</li>
+    </ol>
+    <br>
+
+    <h2>Ensalada de verduras rostizadas</h2>
+      <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2018/12/ensalada-de-vegetales-rostizados.jpg" width="40% " alt="verduras rostizadas">
+      <br>
+       <table>
+        <tr>
+          <th>Ingredientes</th>
+        </tr>
+        <tr>
+    <td> 1 taza de jimotes cherry</td> 
+  </tr>
+  <tr>
+    <td>2 cds. de aceite de oliva</td>  
+  </tr>
+  <tr>
+    <td>2 tazas de pimientos picados en cubos medianos</td> 
+  </tr>
+  <tr>
+    <td>2 tazas de alubias cocidas</td> 
+  </tr>
+  <tr>
+    <td>4 tazas de mix de lechugas</td> 
+  </tr>
+  <tr>
+    <td>1 taza de arígula</td> 
+  </tr>
+  <tr>
+    <td>1 taza de col morada cortada</td> 
+  </tr>  
+  </table>
+    <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. Precalienta el horno a 200° C por 5 minutos. Agrega los jitomates cherry a una charola y</li>
+      <li>2. sazona con un poco de sal y pimienta y unas gotas de aceite de oliva. Hornea por 10 minutos o hasta que adquieran un color dorado. Reserva.</li>
+      <li>3. Coloca una sartén a fuego medio alto con un poco de aceite y agrega los espárragos, enseguida los pimientos y las alubias. Cocina moviendo constantemente hasta que tomen un ligero color dorado. Sazona con sal, pimienta, orégano y tomillo.</li>
+      <li>4. Sirve en un platón la lechuga, arúgula y col morada.</li>
+      <li>5. Mezcla todos los ingredientes uniformemente, salpimenta al gusto y sirve. Acompaña con un poco más de aceite y unas gotas de limón.</li>
+    </ol>
+  </article>
+</section>
+
+
+    <br>
+    <section class="contenido wrapper">
+      <h1 Snacks y postres id="snacks"></h1>
+
+    <h1>SNACKS Y POSTRES</h1>
+    <br>
+    <article>
+    <h2>Chips de pepino</h2>
+<img src="https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/elgranchef/c/como-hacer-chips-de-pepino-1.jpg " alt="chips de pepino" width="40%">
+<br>
+<br>
+ <table>
+        <tr>
+          <th>Ingredientes</th>
+        </tr>
+        <tr>
+    <td>1/2 pepino</td> 
+  </tr>
+  <tr>
+    <td>1 cucharada de vinagre de manzana</td>  
+  </tr>
+  <tr>
+    <td>1/4 de cucharada de sal</td>
+  </tr>
+</table>
+<br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. Pela el pepino y córtalo con mandolina para lograr rodajas bien finas.</li>
+      <li>2. Agrega los pepinos cortados en le recipiente.</li> 
+      <li>3. En un recipiente mediano mezcla el vinagre con la sal.</li> 
+      <li>4. Lleva las rodajas de pepino al deshidratador (puedes hacerlas al horno si no cuentas con uno), deshidrata a 100°C durante 5 minutos. </li>
+    </ol>
+    <p><em><strong>Retira, deja que enfríen y sirve estos snacks de pepino como más te guste. ¡Delicioso!</strong></em></p>
+    <br>
+    <h2>Palitos de queso</h2>
+    <img src="https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/elgranchef/p/palitos_de_queso_crujientes2.jpg" alt="palitos de queso" width="40%">
+   <br>
+   <table>
+     <tr>
+      <th>Ingredientes</th>
+    </tr>
+    <tr>
+      <td>1 ½ taza de queso Cheddar rallado</td>
+    </tr>
+   <tr>              
+      <td>4 cucharadas de mantequilla sin sal (blanda)</td>
+    </tr>
+    <tr>
+      <td>¾ taza de harina (un poco más para espolvorear)
+    </td>
+    </tr>
+    <tr>
+      <td>½ cucharadita de sal</td>
+    </tr>
+    <tr>
+      <td>½ cucharadita de pimentón</td>
+    </tr>
+     <tr>
+      <td>1 cucharada de leche o crema</td>
+    </tr>
+    </table>
+    <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. Precalienta el horno a 180ºC. En el procesador de alimentos combina el queso, la mantequilla, la harina, la sal y el pimentón. Mezcla hasta que adquiera consistencia grumosa. Añade la leche y pulsa durante 10 segundos hasta que la masa pueda formar una bola.</li>
+      <li>2. En una superficie ligeramente enharinada extiende la masa con un rodillo y dale forma de rectángulo de 20 cm de largo y 25 de ancho, con medio cm de grosor. Ahora con un cuchillo afilado corta la masa en tiras finas de 20 cm de largo y 1 cm de ancho.</li>
+      <li>3. Engrasa una bandeja y transfiere allí los palillos dejando una distancia de 1 cm entre cada uno. Hornea en la rejilla media durante 12-15 minutos hasta que los bordes se doren y los notes crujientes. Retira del horno y pon a refrescar.</li>
+      </li>
+    </ol>
+    <p><strong><em>Sirve a temperatura ambiente. Estas barritas de queso pueden guardarse en un recipiente en el frío durante dos días, pero realmente saben mucho mejor y se recomienda tomarlas recién horneadas y servidas un poco después.</strong></em></p>
+<br>
+    <h2>Postre de maracuya</h2>
+    <img src="https://www.lamayorista.com.co/recursos/images/recetas/248f6-img_postre_de_maracuya_con_galletas_y_gelatina_58932_orig.jpg" alt="postre de maracuya" width="40%">
+   <br>
+   <table>
+     <tr>
+      <th>Ingredientes</th>
+    </tr>
+    <tr>
+      <td>1 cucharada sopera de fécula de maíz</td>         
+    </tr>
+   <tr>              
+      <td>1 lata de crema de leche grande</td>
+    </tr>
+    <tr>
+      <td>1 lata de leche condensada grande</td>
+    </tr>
+    <tr>
+      <td>1 rama de canela</td>
+    </tr>
+    <tr>
+      <td>½ taza de leche entera</td>
+    </tr>
+     <tr>
+      <td>1 cucharada de leche o crema</td>
+    </tr>
+    <tr>
+      <td>2 cucharadas soperas de azúcar</td>
+    </tr>
+    <tr>
+      <td>2 maracuyá</td>
+    </tr>
+    <tr>
+      <td>2 sobres de gelatina sin sabor</td>
+    </tr>
+    <tr>
+      <td>250 mililitros de jugo de maracuyá</td>
+    </tr>
+    <tr>
+      <td>Galletas ducales</td>
+    </tr>
+    </table>
+    <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. Mezclar la crema de leche, la leche condensada, la leche y el jugo de maracuyá en la licuadora hasta que quede una contextura homogénea.</li>
+      <li>2. A parte, preparar la gelatina sin sabor disolviéndola en onzas de agua caliente. Seguir las instrucciones del paquete.</li>
+      <li>3. Adicionar la gelatina sin sabor a la mezcla de maracuyá y leche, batir para integrar.</li>
+      <li>4. Colocar las galletas ducales en el fondo de un molde y verter la mezcla cubriendo las galletas. Volver a poner galletas en el molde y terminar de echar la mezcla.</li>
+      <li>5. Llevar el postre de maracuyá a la nevera durante una hora o hasta que haya cuajado.
+      </li>
+      <li>6. Para la salsa: cocinar los dos maracuyá sin licuar con las tres cucharadas de azúcar, medio pocillo de agua y la fécula de maíz disuelta previamente. Adicionar la canela y dejar hervir hasta que espese la salsa. Dejar enfriar y decorar el postre con ella.</li>
+    </ol>
+    <br>
+
+    <h2>Arroz con leche</h2>
+    <img src="https://t1.rg.ltmcdn.com/es/images/0/3/0/arroz_con_leche_nestle_36030_600.jpg" width="40%">
+   <br>
+   <table>
+     <tr>
+      <th>Ingredientes</th>
+    </tr>
+    <tr>
+      <td>1 taza de arroz blanco de grano mediano o corto</td>         
+    </tr>
+   <tr>              
+      <td>1 rama de canela, en trocitos</td>
+    </tr>
+    <tr>
+      <td> 1 lata de leche evaporada</td>
+    </tr>
+    <tr>
+      <td>2 tazas de agua (480 mililitros) </td>
+    </tr>
+    <tr>
+      <td>1 lata de leche condensada </td>
+    </tr>
+     <tr>
+      <td>½ taza de pasas</td>
+    </tr>
+    <tr>
+      <td>1½ cucharaditas de extracto de vainilla</td>
+    </tr>
+    <tr>
+      <td>¼ cucharadita de sal</td>
+    </tr>
+    <tr>
+      <td>2 huevos grandes, batidos ligeramente</td>
+    </tr>
+    <tr>
+      <td>1 pizca de canela en polvo</td>
+    </tr>
+    </table>
+    <br>
+    <h3>Preparación:</h3>
+    <br>
+    <ol>
+      <li>1. Para empezarcocinar el arroz con lechera y Carnation debes colocar en una olla pequeña el agua, el arroz y los trocitos de la raja de canela.</li>
+      <li>2. Hierve estos ingredientes unos breves minutos. Luego cambia la temperatura a fuego bajo y tapa la olla./li>
+      <li>3. Cocina el arroz de 12 a 15 minutos o hasta que el líquido se absorba. Luego retira los trocitos de la rama de canela.</li>
+      <li>4. Vierte, revolviendo, la leche evaporada, la leche condensada, las pasas (opcional), la vainilla y la sal. Sigue hirviendo el arroz con Lechera y Clavel.</li>
+      <li>5. Combina una porción de la mezcla de arroz con leche condesada y evaporada con los huevos. Agrega esta mezcla de huevo a la mezcla de arroz.</li>
+      <li>6. Mézclalos bien con un batidor manual de alambre. Hierve todo unos poco minutos. Cocina el arroz con leche Carnation, revolviendo constantemente, durante 2 minutos.</li>
+      <li>7. Sirve el arroz con leche tibio o frío. Espolvorea por encima la canela en polvo antes de servir. </li>
+    </ol>
+  </section>
+      </article>
+    
 
 </body>
 </html>
-  
