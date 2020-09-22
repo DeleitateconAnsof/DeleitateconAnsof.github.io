@@ -15,23 +15,24 @@
 }
 
 *{margin: 0; padding:0;}
-body{ background: #E7E2E8; }
+body{ background: #C5D1C8}
 header{
   width: 100%;
  overflow:hidden;
- background:#C359DA;
- margin-bottom: 20px;
-}
-.wrapper {
+ background-color:#C359DA;
+ margin-bottom: 20px; 
+  }
+.wrapper { 
   width:90%; 
   max-width:1000px; 
   margin: auto;
   overflow: hidden;
+
 }
 header .logo{
     color:#F9F6FA;
     font-size: 40px;
-    line-height:200px;
+    line-height:100px;
     float: left;
 }
 header nav{
@@ -57,8 +58,9 @@ header nav a:hover{
   border-radius:50px;}
 
   .header2{ 
-  position: fixed;
-  height:100px;
+    position: fixed;
+
+  height:170px;
    }
 
    .header2 .logo{
@@ -67,8 +69,9 @@ header nav a:hover{
    }
 
    .header2 nav{
-    line-height:150px
+    line-height:50px
    }
+   
 
    @media screen and (max-width: 950px) {
     header.logo,
@@ -95,31 +98,86 @@ header nav a:hover{
     margin: auto;
  } 
  table{
-  width: 50%
+  width: 40%;
+  margin: 0 auto;"
  }
 
-   
+ *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ h1{ background-color:#C359DA}
+
+
+
+ h2{background-color:#DB84EC}
+
+ div.logo{
+  font-family: Segoe Print
+ }
+ .redes{
+  height: 200px;
+  background-color:#505050;
+  padding: 30px;
+ }
+ .redes h4{
+  font-family: gabriola;
+  text-align: center;
+  font-weight: bold;
+
+ }
+ .sociales{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+ .sociales li{
+  display: inline-block;
+  padding: 20px;
+ }
+ .sociales a{
+  padding: 100px;
+ }
+ h4{ color: white
+ }
+ section h1{
+  font-family: Lucida Handwriting;
+ }
+
+ section h2{
+  font-family:Century Gothic ;
+ }
+
+ #botonarriba{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+ }
   
+
+
 </style>
 
 
 <body> 
-    <header class="header">
+    <header class="header" id="principio">
       <div class="wrapper">
-      <div class="logo">Deléitate con ANSOF</div>
-      <br>
+      <div class="logo"> Deléitate con ANSOF</div>
       <br>
       <br>
       <div class="logo">"Recetas practicas y variadas"</div>
 
       <nav> 
           <a href="#info personal"> Información personal</a>
+          <a href="#nosotros">Nosotros</a>
           <a href="#recetas">Recetas saludables</a>
           <a href="#snacks">Snaks y postres</a>
-          <a href="#referencias">Referencias</a>
       </nav>
     </div>
     </header>
+    <br> 
     <section class="contenido wrapper">
       <h1 Información personal id="info personal"></h1>
       <h1>INFORMACIÓN PERSONAL</h1>
@@ -135,6 +193,19 @@ header nav a:hover{
       </article>
     </section>
     <br>
+
+    <section class="contenido wrapper">
+      <h1 nosotros id="nosotros"></h1>
+      <h1>NOSOTROS</h1>
+      <br>
+      <article>
+        <P> Si eres fanatico/a de la cocina sencilla, te presentamos diversas recetas faciles de preparar y
+          disfruta del maravilloso mundo de los sabores deleitando tu paladar. 
+          
+        </P>
+      </article>
+    </section>
+    <br>
     
     <section class="contenido wrapper ">
        <h1 Recetas saludables id="recetas"></h1>
@@ -142,11 +213,13 @@ header nav a:hover{
       <article>
         <br>
       <h2>Salmón a la naranja</h2>
+      <br>
       <img src="https://s1.eestatic.com/2015/02/23/cocinillas/Cocinillas_13258747_115937598_1706x960.jpg" alt="salmón a la naranja" width="40% ">
       <br>
       <p>El salmón a la naranja es una receta de las más sencillas que podemos hacer para cambiar la forma habitual de comer el salmón. La salsa de naranja le da un toque dulce y cítrico a la vez al salmón, por lo que resulta delicioso, además de quedar muy jugoso. La salsa lleva también unas almendras, que  aportan una textura diferente a la receta, y un sofrito de cebolla que combina muy bien con el salmón.
       </p>
       <br>
+
       <table>
         <tr>
           <th>Ingredientes</th>
@@ -189,6 +262,7 @@ header nav a:hover{
     </ol>
     <br>
      <h2>Ensalada de atún y aguacate</h2>
+      <br>
       <img src="https://okdiario.com/img/recetas/2017/01/10/ensalada-de-atun-y-aguacate.jpg " alt="salmón a la naranja" width="40% " alt="ensalada-de-atun-y-aguacate">
       <br>
       <p>Ensalada de atún y aguacate, deliciosa y sencilla ensalada rica en proteínas.</p>
@@ -229,6 +303,7 @@ header nav a:hover{
     </ol>
     <br>
     <h2>Arroz con verduras al pimentón</h2>
+    <br>
       <img src="https://s4.eestatic.com/2015/03/29/cocinillas/Cocinillas_21757907_115960751_1706x960.jpg" width="40% " alt="arroz con verduras">
       <br>
       <p>Un delicioso arroz con verduras al pimentón, este iene un sabor muy característico del pimiento, Como bien sabemos el pimentón resalta por su sabor picante ligero y su aroma, por ello aquí es el principal ingrediente, es el estrella.</p>
@@ -286,7 +361,9 @@ header nav a:hover{
     <br>
 
     <h2>Ensalada de verduras rostizadas</h2>
+    <br>
       <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2018/12/ensalada-de-vegetales-rostizados.jpg" width="40% " alt="verduras rostizadas">
+      <br>
       <br>
        <table>
         <tr>
@@ -336,6 +413,7 @@ header nav a:hover{
     <br>
     <article>
     <h2>Chips de pepino</h2>
+    <br>
 <img src="https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/elgranchef/c/como-hacer-chips-de-pepino-1.jpg " alt="chips de pepino" width="40%">
 <br>
 <br>
@@ -353,19 +431,23 @@ header nav a:hover{
     <td>1/4 de cucharada de sal</td>
   </tr>
 </table>
+</div>
 <br>
     <h3>Preparación:</h3>
     <br>
     <ol>
-      <li>1. Pela el pepino y córtalo con mandolina para lograr rodajas bien finas.</li>
-      <li>2. Agrega los pepinos cortados en le recipiente.</li> 
-      <li>3. En un recipiente mediano mezcla el vinagre con la sal.</li> 
-      <li>4. Lleva las rodajas de pepino al deshidratador (puedes hacerlas al horno si no cuentas con uno), deshidrata a 100°C durante 5 minutos. </li>
+      <li>Pela el pepino y córtalo con mandolina para lograr rodajas bien finas.</li>
+      <li>Agrega los pepinos cortados en le recipiente.</li> 
+      <li>En un recipiente mediano mezcla el vinagre con la sal.</li> 
+      <li>Lleva las rodajas de pepino al deshidratador (puedes hacerlas al horno si no cuentas con uno), deshidrata a 100°C durante 5 minutos. </li>
     </ol>
     <p><em><strong>Retira, deja que enfríen y sirve estos snacks de pepino como más te guste. ¡Delicioso!</strong></em></p>
+  </div>
     <br>
     <h2>Palitos de queso</h2>
+    <br>
     <img src="https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/elgranchef/p/palitos_de_queso_crujientes2.jpg" alt="palitos de queso" width="40%">
+   <br>
    <br>
    <table>
      <tr>
@@ -403,6 +485,7 @@ header nav a:hover{
     <p><strong><em>Sirve a temperatura ambiente. Estas barritas de queso pueden guardarse en un recipiente en el frío durante dos días, pero realmente saben mucho mejor y se recomienda tomarlas recién horneadas y servidas un poco después.</strong></em></p>
 <br>
     <h2>Postre de maracuya</h2>
+    <br>
     <img src="https://www.lamayorista.com.co/recursos/images/recetas/248f6-img_postre_de_maracuya_con_galletas_y_gelatina_58932_orig.jpg" alt="postre de maracuya" width="40%">
    <br>
    <table>
@@ -458,6 +541,7 @@ header nav a:hover{
     <br>
 
     <h2>Arroz con leche</h2>
+    <br>
     <img src="https://t1.rg.ltmcdn.com/es/images/0/3/0/arroz_con_leche_nestle_36030_600.jpg" width="40%">
    <br>
    <table>
@@ -509,11 +593,34 @@ header nav a:hover{
     </ol>
   </section>
       </article>
-  <br>
-  <br>
-  <br>
-  <br>
-    
+      <br>
+      <br>
+      <br>
 
+
+      <a href="#principio"><img src="https://www.flaticon.es/svg/static/icons/svg/2439/2439562.svg" id="botonarriba"></a>
+
+      
+      <br>
+      <br>
+      <br>
+
+       <a target="_blank" href="https://www.superprof.co/blog/aprendiendo-de-gastronomia/">Enlace a la pagina superprof blog</a>
+       <br>
+
+
+      <div class="redes">
+        <h4>Siguenos en:</h4>
+        <ul class="sociales">
+          <li><a href="https://www.facebook.com/laurasofia.zap" target="_blank"><img src="https://www.flaticon.es/svg/static/icons/svg/733/733549.svg" width="45" height="45"></a></li>
+           <li><a href="https://instagram.com/_ls_.20?igshid=cole4busi8ft"><img src="https://www.flaticon.es/svg/static/icons/svg/733/733558.svg" width="45" height="45"></a></li>
+
+           <li><img src="https://www.flaticon.es/svg/static/icons/svg/3180/3180209.svg" width="45" height="45"><p>Palmira-Valle</p></li>
+         
+         <li><img src="https://www.flaticon.es/svg/static/icons/svg/593/593130.svg" width="45" height="45"><p>314-000-87-89</p></li>
+
+         <li><img src="https://www.flaticon.es/svg/static/icons/svg/601/601248.svg" width="45" height="45"><p>sofiacandelo0726@gmail.com</p></li>
+        </ul>
+      </div>  
 </body>
 </html>
